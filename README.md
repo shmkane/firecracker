@@ -14,7 +14,7 @@ in lightweight virtual machines, called microVMs, which combine the security and
 isolation properties provided by hardware virtualization technology with the
 speed and flexibility of containers.
 
-The main component of Firecracker is a virtual machine monitor (VMM) that uses
+The main component of Firecracker is a virtual machine manager (VMM) that uses
 the Linux Kernel Virtual Machine (KVM) to create and run microVMs. Firecracker
 has a minimalist design. It excludes unnecessary devices and guest-facing
 functionality to reduce the memory footprint and attack surface area of each
